@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+ <style>
+        form{
+         margin-left: 30%;
+         margin-top: 6%; 
+         background-color: rgb(188, 188, 197);
+         width:50%; 
+         height:420px;
+         padding-top: 20px;
+         border-radius:12px; 
+        }
+        body{
+            padding: 30px,60px;
+        }
+        form input{
+            margin-left: 10%;
+        }
+        form label{
+            display: inline-block;
+            width: 20%;
+           margin-left: 10%;
+        }
+    </style>
+</head>
+<body>
+<form action="register">
+<label>Enter Your Name</label>
+<input type="text" name="userName" placeholder="Name" width="40%"/><br><br><br><br>
+<label>Enter Your Contact No.</label>
+<input type="text" name="contact" placeholder="Contact" width="10%" pattern="[789][0-9]{9}"/><br><br><br><br>
+
+<label>Enter Your Password</label>
+<input type="password" name="password" placeholder="Password" width="10%"/><br><br><br><br>
+<input type="submit" name="register" value="Register" style="display: inline-block; width: 100px; background-color: rgb(51, 106, 207);margin-left: 33%; border-radius: 5px;"/><br><br>
+<span>Have you already an account</span>
+<button style="display: inline-block; width: 100px; background-color: rgb(51, 106, 207); margin-left: 3%; border-radius: 5px;"><a href="index.html" style="text-decoration: none;color: black">Login</a></button> 
+</form>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Books</title>
+<style>
+        form{
+            width: 40%;
+            margin-left: 20%;
+            margin-top: 4%;
+            padding: 10%;
+            background-color: bisque;
+            border-radius: 14px;
+        }
+        form label{
+            display: inline-block;
+            width: 30%;
+           
+        }
+        form input{
+            margin-left: 20%;
+        }
+        select{
+        margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+<form action="addBooks">
+    <label>Book Type</label>
+    <select name="bookType">
+    <option value="physics">Physics</option>
+    <option value="chemistry">Chemistry</option>
+    <option value="maths">Maths</option>
+    <option value="enviornment">Enviornment</option>
+    <option value="geography">Geography</option>
+    <option value="">History</option>
+    <option value="marathi">Marathi</option>
+    <option value="cs">Cs</option>
+    <option value="hindi">Hindi</option>
+    <option value="english">English</option>
+    <option value="polity">Polity</option>
+    <option value="commerce">Commerce</option>
+    </select><br><br>
+    
+    <label>Book Name</label>
+    <input type="text" name="bookName"><br><br><br>
+    <label>Book ID</label>
+    <input type="number" name="bookId"><br><br><br>
+     <label>Book Copies</label>
+    <input type="number" name="bookCopy"><br><br>
+    <input type="submit" value="AddBook" style="margin-top: 10%;">
+   </form>
+        
+</body>
+</html>
